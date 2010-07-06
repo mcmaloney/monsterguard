@@ -1,0 +1,5 @@
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:05:10) [GET]
+Rendering main_pages/support
+Completed in 37ms (View: 33, DB: 0) | 200 OK [http://localhost/support]
