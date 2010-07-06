@@ -5,5 +5,30 @@
 </p>
 
 <p>
+  <% form_for :support_message, :html => { :method => :post }, :url => send_support_message_path do |f| %>
+    <p>
+      <%= f.label :user_name, "Your Name:" %><br />
+      <%= f.text_field :user_name %>
+    </p>
+    <p>
+      <%= f.label :user_email, "Your Email Address:"%><br />
+      <%= f.text_field :user_email %>
+    </p>
+    <p>
+      <%= f.label :subject, "Nature of Inquiry:" %><br />
+      <%= f.text_field :subject %>
+    </p>
+    <p>
+      <%= f.label :body, "Your Message:" %><br />
+      <%= f.text_area :body %>
+    </p>
+    <p>
+      <%= f.submit "Send Us a Note" %>
+    </p>
+  <% end %>
+</p>
+    
+
+<p>
   <a href="/">Home</a>
 </p>

@@ -3,3 +3,605 @@
 Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:05:10) [GET]
 Rendering main_pages/support
 Completed in 37ms (View: 33, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:10:48) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x1021b94c0>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :url => send_support_message_path, :html => { :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.8ms)
+Rendered rescues/_request_and_response (2.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:11:42) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x1011cfed8>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :html => { :url => send_support_message_path, :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:12:13) [GET]
+Rendering main_pages/support
+ERROR: compiling _run_erb_app47views47main_pages47support46html46erb RAISED compile error
+/Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:8: syntax error, unexpected ':', expecting kEND
+;  form_for :support_message :url => send_support_message_pa...
+                              ^
+/Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:8: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+...support_message_path, :html => { :method => :post } do |f| ;...
+                              ^
+/Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:8: syntax error, unexpected kDO, expecting kEND
+...tml => { :method => :post } do |f| ; @output_buffer.concat "...
+                              ^
+/Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:36: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47main_pages47support46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<h1>Support</h1>\n\n<p>\n  We don't have anything to support yet. App will be submitted Friday 7/9/2010!\n</p>\n\n<p>\n  "
+
+
+
+
+
+
+;  form_for :support_message :url => send_support_message_path, :html => { :method => :post } do |f| ; @output_buffer.concat "\n    <p>\n      "
+
+; @output_buffer.concat(( f.label :user_name ).to_s); @output_buffer.concat "<br />\n      "
+; @output_buffer.concat(( f.text_field :user_name ).to_s); @output_buffer.concat "\n    </p>\n    <p>\n      "
+
+
+; @output_buffer.concat(( f.label :user_email ).to_s); @output_buffer.concat "<br />\n      "
+; @output_buffer.concat(( f.text_field :user_email ).to_s); @output_buffer.concat "\n    </p>\n    <p>\n      "
+
+
+; @output_buffer.concat(( f.label :subject ).to_s); @output_buffer.concat "<br />\n      "
+; @output_buffer.concat(( f.text_field :subject ).to_s); @output_buffer.concat "\n    </p>\n    <p>\n      "
+
+
+; @output_buffer.concat(( f.label :body ).to_s); @output_buffer.concat "<br />\n      "
+; @output_buffer.concat(( f.text_area :body ).to_s); @output_buffer.concat "\n    </p>\n    <p>\n      "
+
+
+; @output_buffer.concat(( f.submit "Send Us a Note" ).to_s); @output_buffer.concat "\n    </p>\n  "
+
+;  end ; @output_buffer.concat "\n</p>\n    \n\n<p>\n  <a href=\"/\">Home</a>\n</p>\n"
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:36:in `compile!'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/usr/local/lib/ruby/gems/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:50:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+/usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+/usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+/usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+/usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+/usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+/usr/local/lib/ruby/gems/1.8/gems/rack-1.0.1/lib/rack/handler/webrick.rb:14:in `run'
+/usr/local/lib/ruby/gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:8: syntax error, unexpected ':', expecting kEND
+;  form_for :support_message :url => send_support_message_pa...
+                              ^
+/Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:8: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+...support_message_path, :html => { :method => :post } do |f| ;...
+                              ^
+/Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:8: syntax error, unexpected kDO, expecting kEND
+...tml => { :method => :post } do |f| ; @output_buffer.concat "...
+                              ^
+/Users/michael/Desktop/monsterguard/app/views/main_pages/support.html.erb:36: syntax error, unexpected kENSURE, expecting $end) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message :url => send_support_message_path, :html => { :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:36:in `compile!'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.5ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:12:23) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x101679240>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :url => send_support_message_path, :html => { :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (118.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:12:37) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_url' for #<ActionView::Base:0x101e98c28>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :url => send_support_message_url, :html => { :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (64.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:13:18) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x1021b8cc8>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :url => send_support_message_path, :html => { :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (65.9ms)
+Rendered rescues/_request_and_response (2.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:14:12) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x101229f50>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for @support_message, :support_message, :url => send_support_message_path, :html => { :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:14:43) [GET]
+Rendering main_pages/support
+Completed in 57ms (View: 53, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:18:45) [GET]
+Rendering main_pages/support
+Completed in 17ms (View: 14, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:22:43) [GET]
+Rendering main_pages/support
+Completed in 10ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#send_support_message (for 127.0.0.1 at 2010-07-06 17:22:59) [POST]
+  Parameters: {"commit"=>"Send Us a Note", "authenticity_token"=>"wt2ORjxLANFf8wYE6VfDcAVnUfqX8Ems545O8viu3LI=", "support_message"=>{"body"=>"Hey testing this shit", "subject"=>"Feature request", "user_name"=>"elmar", "user_email"=>"elmar@tes.com"}}
+Sent mail to maloney.mc@gmail.com
+
+Date: Tue, 6 Jul 2010 17:22:59 -0400
+From: support_robot@getmonsterguard.com
+To: maloney.mc@gmail.com
+Subject: MESSAGE FROM MONSTERGUARD SUPPORT PAGE
+Mime-Version: 1.0
+Content-Type: multipart/alternative; boundary=mimepart_4c339eb3d0fb3_2073802827f819a
+
+
+--mimepart_4c339eb3d0fb3_2073802827f819a
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: Quoted-printable
+Content-Disposition: inline
+
+<h1>Support Message!</h1>=
+
+--mimepart_4c339eb3d0fb3_2073802827f819a--
+Rendering main_pages/support
+Completed in 104ms (View: 7, DB: 0) | 200 OK [http://localhost/send_support_message]
+
+
+Processing MainPagesController#send_support_message (for 127.0.0.1 at 2010-07-06 17:23:05) [POST]
+  Parameters: {"commit"=>"Send Us a Note", "authenticity_token"=>"wt2ORjxLANFf8wYE6VfDcAVnUfqX8Ems545O8viu3LI=", "support_message"=>{"body"=>"", "subject"=>"", "user_name"=>"", "user_email"=>""}}
+Rendering main_pages/support
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/send_support_message]
+
+
+Processing MainPagesController#send_support_message (for 127.0.0.1 at 2010-07-06 17:23:06) [POST]
+  Parameters: {"commit"=>"Send Us a Note", "authenticity_token"=>"wt2ORjxLANFf8wYE6VfDcAVnUfqX8Ems545O8viu3LI=", "support_message"=>{"body"=>"", "subject"=>"", "user_name"=>"", "user_email"=>""}}
+Rendering main_pages/support
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/send_support_message]
+
+
+Processing MainPagesController#send_support_message (for 127.0.0.1 at 2010-07-06 17:23:29) [POST]
+  Parameters: {"commit"=>"Send Us a Note", "authenticity_token"=>"wt2ORjxLANFf8wYE6VfDcAVnUfqX8Ems545O8viu3LI=", "support_message"=>{"body"=>"", "subject"=>"", "user_name"=>"", "user_email"=>""}}
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message' for #<ActionView::Base:0x101880ea8>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :url => send_support_message, :html => { :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name, "Your Name:" %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    app/controllers/main_pages_controller.rb:7:in `send_support_message'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (131.0ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#send_support_message (for 127.0.0.1 at 2010-07-06 17:23:35) [POST]
+  Parameters: {"commit"=>"Send Us a Note", "authenticity_token"=>"wt2ORjxLANFf8wYE6VfDcAVnUfqX8Ems545O8viu3LI=", "support_message"=>{"body"=>"", "subject"=>"", "user_name"=>"", "user_email"=>""}}
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x1044254f0>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :url => send_support_message_path, :html => { :method => :post } do |f| %>
+9:     <p>
+10:       <%= f.label :user_name, "Your Name:" %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    app/controllers/main_pages_controller.rb:7:in `send_support_message'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (64.4ms)
+Rendered rescues/_request_and_response (0.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-06 17:25:25) [GET]
+
+ActionController::MethodNotAllowed (Only post requests are allowed.):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (41.8ms)
+Rendered rescues/_request_and_response (2.4ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-06 17:25:40) [GET]
+
+ActionController::MethodNotAllowed (Only post requests are allowed.):
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (39.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (method_not_allowed)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:25:46) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x101525d08>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :url => send_support_message_path do |f| %>
+9:     <p>
+10:       <%= f.label :user_name, "Your Name:" %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (64.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:25:50) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x101d55ff0>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :html => { :method => :post }, :url => send_support_message_path do |f| %>
+9:     <p>
+10:       <%= f.label :user_name, "Your Name:" %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (122.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:26:21) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined local variable or method `send_support_message_path' for #<ActionView::Base:0x1020e9720>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :html => { :method => :post }, :url => send_support_message_path do |f| %>
+9:     <p>
+10:       <%= f.label :user_name, "Your Name:" %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (64.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-06 17:27:20) [GET]
+Rendering main_pages/support
+
+ActionView::TemplateError (undefined method `send_support_message_path' for #<ActionView::Base:0x1011c7a58>) on line #8 of app/views/main_pages/support.html.erb:
+5: </p>
+6: 
+7: <p>
+8:   <% form_for :support_message, :html => { :method => :post }, :url => send_support_message_path(nil) do |f| %>
+9:     <p>
+10:       <%= f.label :user_name, "Your Name:" %><br />
+11:       <%= f.text_field :user_name %>
+
+    app/views/main_pages/support.html.erb:8
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+    /usr/local/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:95:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `each'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:92:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:23:in `start'
+    /usr/local/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (63.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
