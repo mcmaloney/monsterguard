@@ -605,3 +605,18 @@ ActionView::TemplateError (undefined method `send_support_message_path' for #<Ac
 Rendered rescues/_trace (63.3ms)
 Rendered rescues/_request_and_response (0.4ms)
 Rendering rescues/layout (internal_server_error)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-09 14:40:57) [GET]
+Rendering main_pages/support
+Completed in 55ms (View: 51, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-09 14:41:32) [GET]
+Rendering main_pages/support
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-09 14:41:36) [GET]
+Rendering main_pages/support
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/support]
