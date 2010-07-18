@@ -1,14 +1,36 @@
 <h1>Support</h1>
 
 <p>
-  We don't have anything to support yet. App will be available Friday 7/16/2010!
+  <%= flash[:notice] %>
 </p>
 
 <p>
-  Feel free to drop us a line at <a href="mailto:support@monsterguard.com">support@monsterguard.com</a> if you have any questions, comments or concerns.
+  Drop us a line with any questions, comments or concerns you might have about MonsterGuard.
 </p>
-    
 
+<% form_for :message, :url => send_support_message_path, :html => { :method => :post } do |f| %>
+  <p>
+    <%= f.label :name, "Your name:" %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :email, "Your email (required):" %><br />
+    <%= f.text_field :email %>
+  </p>
+  <p>
+    <%= f.label :subject, "Nature of Inquiry (comment, problem, feature request, etc..):" %><br />
+    <%= f.text_field :subject %>
+  </p>
+  <p>
+    <%= f.label :body, "Your message:" %><br />
+    <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.submit 'Send' %>
+  </p>
+<% end %>
+  
+  
 <p>
   <a href="/">Home</a>
 </p>
