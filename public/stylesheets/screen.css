@@ -1,7 +1,13 @@
-@import "reset.css";
+@import url("reset.css");
 
 body {
+  font-family: "Verdana", sans-serif;
+  color: #fff;
+  line-height: 20px;
+}
 
+a {
+  text-decoration: none;
 }
 
 #wrapper{
@@ -14,29 +20,102 @@ body {
 
 #top-bar-inner {
   margin: 0 auto;
-  width: 960px;
+  padding: 0 40px;
+  width: 940px;
 }
 
 #logo {
   background: url("/images/logo.png");
   float: left;
   height: 41px;
-  margin: 15px 20px;
+  margin: 15px 0px;
   width: 320px;
 }
 
-#phone-top {
+#iphone-top {
+  background: url("/images/iphone-top.png") no-repeat;
+  height: 35px;
   float: right;
+  margin-top: 45px;
+  width:255px;
 }
 
 #middle {
-  background: #000;
-  height: 400px;
+  background: url("/images/middle-bg.jpg") repeat-x;
+  border-bottom: 1px solid #0f0a0f;
+  height: 385px;
 }
 
 #middle-inner {
-  background: url("/images/middle-inner-bg.jpg") no-repeat;
-  height: 400px;
+  background: url("/images/middle-inner-bg.png") no-repeat 10px 0;
+  height: 385px;
   margin: 0 auto;
-  width: 1020px;
+  padding: 0 40px;
+  width: 940px;
+}
+
+#middle-inner #blurb {
+  color: #E1F8FF;
+  float: left;
+  margin: 110px 0 0 10px;
+  width: 450px;
+}
+
+#download {
+  background: url("/images/btn-bg.jpg");
+  border: 2px solid #7d6004;
+  cursor: pointer;
+  color: #f8e9b2;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-right: 260px;
+  padding: 4px 13px 5px 10px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+
+#download:hover {
+  color: #FFFCCA;
+  border-color: #937104;
+}
+
+#download .left {
+  background: url("/images/arrow-down.png") no-repeat;
+  float: left;
+  height: 33px;
+  margin-top: 4px;
+  margin-right: 2px;
+  width: 29px;
+}
+
+#download .right {
+  float: left;
+}
+
+#download .tiny {
+  color: #564203;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#iphone-front {
+  background: url("/images/iphone-front.png");
+  height: 498px;
+  float: right;
+  width: 255px;
+}
+
+#bottom {
+  background: #0f0a0f;
+  border-top: 1px solid #1D121E;
+  height: 300px;
+}
+
+#bottom-inner {
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 940px;
 }
