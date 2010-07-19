@@ -1,0 +1,42 @@
+@import "reset.css";
+
+body {
+
+}
+
+#wrapper{
+}
+
+#top-bar {
+  background: url("/images/top-bar-bg.jpg") repeat-x #eee;
+  height: 80px;
+}
+
+#top-bar-inner {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#logo {
+  background: url("/images/logo.png");
+  float: left;
+  height: 41px;
+  margin: 15px 20px;
+  width: 320px;
+}
+
+#phone-top {
+  float: right;
+}
+
+#middle {
+  background: #000;
+  height: 400px;
+}
+
+#middle-inner {
+  background: url("/images/middle-inner-bg.jpg") no-repeat;
+  height: 400px;
+  margin: 0 auto;
+  width: 1020px;
+}
