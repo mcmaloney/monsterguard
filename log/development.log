@@ -1165,3 +1165,8 @@ ActionController::RoutingError (No route matches "/images/iphone-bottom" with {:
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 11:26:46) [GET]
+Rendering main_pages/support
+Completed in 46ms (View: 42, DB: 0) | 200 OK [http://localhost/support]
