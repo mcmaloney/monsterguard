@@ -793,3 +793,650 @@ Completed in 17ms (DB: 0) | 302 Found [http://localhost/send_support_message]
 Processing MainPagesController#support (for 127.0.0.1 at 2010-07-18 02:10:01) [GET]
 Rendering main_pages/support
 Completed in 83ms (View: 79, DB: 0) | 200 OK [http://localhost/support]
+  [4;36;1mSQL (1.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mselect sqlite_version(*)[0m
+  [4;36;1mSQL (7.1ms)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (1.2ms)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.1ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:43:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:43:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:43:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:43:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:43:46) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:44:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:44:23) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:44:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/style.css" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:49:21) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 19:54:42) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:49) [GET]
+
+ActionController::RoutingError (No route matches "/images/middle-inner.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:49) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/middle-inner.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/middle-inner.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:50) [GET]
+
+ActionController::RoutingError (No route matches "/images/middle-inner.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:57) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/middle-inner.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/middle-inner.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:02:58) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:03:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/middle-inner-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:03:10) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:03:14) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:03:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:03:35) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/top-bar-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:19:23) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 20:49:23) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:13:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/middle-inner-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:15:12) [GET]
+
+ActionController::RoutingError (No route matches "/images/middle-inner-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:15:18) [GET]
+
+ActionController::RoutingError (No route matches "/images/middle-inner-bg.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:19:25) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:49:26) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:50:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/btn-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:50:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/btn-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:50:50) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/btn-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:51:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/btn-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:51:02) [GET]
+
+ActionController::RoutingError (No route matches "/images/btn-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:51:19) [GET]
+
+ActionController::RoutingError (No route matches "/images/btn-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 21:51:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/btn-bg.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 22:14:24) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/arrow-down.png" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 22:19:29) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 22:32:03) [GET]
+
+ActionController::RoutingError (No route matches "/images/iphone-bottom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+<<<<<<< HEAD:log/development.log
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 22:49:32) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 23:19:33) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 23:49:34) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 00:19:36) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 00:49:38) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 01:19:42) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 01:49:43) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 02:19:44) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 02:50:37) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 03:20:39) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 03:50:42) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 04:20:43) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 04:50:45) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 05:20:55) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 05:51:01) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 06:21:07) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 06:51:04) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 07:21:06) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 07:51:07) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 08:21:09) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 08:51:11) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 09:21:13) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 09:51:14) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 10:21:15) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 10:51:16) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 21:51:54) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 22:21:56) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 22:51:58) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 23:07:17) [GET]
+Rendering main_pages/support
+Completed in 96ms (View: 94, DB: 0) | 200 OK [http://localhost/support]
+=======
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 11:26:46) [GET]
+Rendering main_pages/support
+Completed in 46ms (View: 42, DB: 0) | 200 OK [http://localhost/support]
+>>>>>>> 67796edd46079a6749ad2ff940a946f2c2b4ba0d:log/development.log
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 23:48:49) [GET]
+Rendering main_pages/support
+Completed in 48ms (View: 44, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 00:19:24) [GET]
+Rendering main_pages/support
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#home (for 127.0.0.1 at 2010-07-20 01:01:57) [GET]
+Rendering template within layouts/application
+Rendering main_pages/home
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:02:20) [GET]
+Rendering template within layouts/application
+Rendering main_pages/support
+Completed in 67ms (View: 63, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:02:56) [GET]
+Rendering template within layouts/application
+Rendering main_pages/support
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#home (for 127.0.0.1 at 2010-07-20 01:03:54) [GET]
+Rendering template within layouts/application
+Rendering main_pages/home
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:04:48) [GET]
+Rendering template within layouts/application
+Rendering main_pages/support
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/support]

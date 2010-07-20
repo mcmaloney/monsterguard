@@ -1,0 +1,341 @@
+@import url("reset.css");
+
+body {
+  background: #0f0a0f;
+  font-family: "Verdana", sans-serif;
+  color: #fff;
+  line-height: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+p {
+  line-height: 20px;
+  margin: 10px 0;
+}
+
+#wrapper{
+}
+
+#top-bar {
+  background: url("/images/top-bar-bg.jpg") repeat-x #eee;
+  height: 80px;
+}
+
+#top-bar-inner {
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 940px;
+}
+
+#logo {
+  background: url("/images/logo.png");
+  float: left;
+  height: 41px;
+  margin: 15px 0px;
+  width: 320px;
+}
+
+#iphone-top {
+  background: url("/images/iphone-top.png") no-repeat;
+  height: 35px;
+  float: right;
+  margin-top: 45px;
+  width:255px;
+}
+
+#middle {
+  background: url("/images/middle-bg.jpg") repeat-x;
+  border-bottom: 1px solid #0f0a0f;
+  height: 385px;
+}
+
+#middle-inner {
+  background: url("/images/middle-inner-bg.png") no-repeat 10px 0;
+  height: 385px;
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 940px;
+}
+
+#middle-inner #blurb {
+  color: #E1F8FF;
+  float: left;
+  margin: 110px 0 0 10px;
+  width: 450px;
+}
+
+#download {
+  background: url("/images/btn-bg.jpg");
+  border: 2px solid #7d6004;
+  cursor: pointer;
+  color: #f8e9b2;
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-right: 260px;
+  padding: 4px 13px 5px 10px;
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.3);
+}
+
+#download:hover {
+  color: #FFFCCA;
+  border-color: #937104;
+}
+
+#download .left {
+  background: url("/images/arrow-down.png") no-repeat;
+  float: left;
+  height: 33px;
+  margin-top: 4px;
+  margin-right: 2px;
+  width: 29px;
+}
+
+#download .right {
+  float: left;
+}
+
+#download .tiny {
+  color: #564203;
+  font-size: 12px;
+  font-weight: normal;
+}
+
+#iphone-front {
+  background: url("/images/iphone-front.png");
+  height: 498px;
+  float: right;
+  width: 255px;
+}
+
+#bottom {
+  background: #0f0a0f;
+  border-top: 1px solid #1D121E;
+  height: 500px;
+}
+
+#bottom-inner {
+  margin: 0 auto;
+  padding: 60px 40px;
+  width: 940px;
+}
+
+#points {
+  float: left;
+  width: 640px;
+}
+
+.point {
+  float: left;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.point .icon {
+  float: left;
+  height: 60px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.point .text {
+  float: left;
+  font-size: 14px;
+  width: 245px;
+}
+
+.point .text h3 {
+  color: #fefcbe;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.point .icon.monster {
+  background: url("/images/monster.png");
+}
+
+.point .icon.bulb {
+  background: url("/images/bulb.png");
+}
+
+.point .icon.plax {
+  background: url("/images/plax.png");
+}
+
+.point .icon.alert {
+  background: url("/images/alert.png");
+}
+
+#right {
+  float: right;
+  margin-top: 20px;
+}
+
+#right h2 {
+  color: #4E314E;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#right p {
+  background: #130C13;
+  color: #7C4E7C;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+  padding: 10px 10px 0;
+  width: 226px;
+}
+
+#right span.credit {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 40px;
+  margin-top: 5px;
+  text-align: right;
+}
+
+#footer {
+  color: #7C4E7C;
+  border-top: 1px solid #150E15;
+  font-size: 12px;
+  padding: 20px 0 40px;
+  text-align: center;
+}
+
+#footer a {
+  color: #7C4E7C;
+  text-decoration: underline;
+}
+
+.small {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/*support*/
+
+#support {
+  margin: 0 auto;
+  margin-bottom: 140px;
+  margin-top: 40px;
+  width: 940px;
+}
+
+form {
+  width: 400px;
+}
+
+form fieldset label {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 3px; }
+form fieldset input {
+  background: #130C13;
+  border: 1px solid #1F131F;
+  color: #fff;
+  height: 15px;
+  padding: 5px;
+  width: 98%; }
+  form fieldset input:focus {
+    background: #FFFBE2;
+    color: #000; }
+form fieldset textarea {
+  background: #130C13;
+  border: 1px solid #1F131F;
+  width: 100%; }
+  form fieldset textarea:focus {
+    background: #FFFBE2; }
+form fieldset .checkbox label {
+  float: left; }
+form fieldset .checkbox input {
+  border: 0;
+  float: left;
+  width: 25px; }
+form fieldset .radio label {
+  float: left; }
+form fieldset .radio input {
+  border: 0;
+  float: left;
+  width: 25px; }
+form fieldset .file {
+  margin: 10px 0; }
+  form fieldset .file input {
+    border: 0;
+    *border: 1px solid #ccc;
+    height: 25px; }
+    
+form fieldset .submit input {
+  background: #281928;
+  cursor: pointer;
+  height: 30px;
+  width: 100px;
+}
+
+form fieldset .submit input:hover {
+  background: #4C2F4C;
+}
+    
+/*errors*/
+.flash {
+  color: #FAFFB8;
+}
+
+.errorMessage {
+  display: none; }
+  .errorMessage p {
+    color: red; }
+
+.fieldWithErrors {
+  background: url('/images/icons/exclamation.png') no-repeat 1% #f5d1c4;
+  line-height: 1.6;
+  padding: 5px; }
+  .fieldWithErrors label {
+    padding-left: 20px; }
+
+.checkbox, .radio {
+  float: left; }
+  .checkbox .fieldWithErrors, .radio .fieldWithErrors {
+    background-position: 14%;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-bottom: 2px; }
+
+.label .fieldWithErrors label {
+  padding: 10px 0; }
+
+.file .fieldWithErrors {
+  background-position: 1% 42%;
+  padding-left: 30px; }
+
+#errorExplanation {
+  background-color: #f5d1c4;
+  border: 2px solid #ee1111;
+  margin-bottom: 20px;
+  padding-bottom: 10px; }
+  #errorExplanation h2 {
+    font-family: "Verdana", sans-serif;
+    background-color: #ee1111;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0;
+    text-align: left; }
+  #errorExplanation p {
+    padding: 10px 20px 0; }
+  #errorExplanation ul {
+    padding-left: 20px; }
