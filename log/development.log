@@ -1440,3 +1440,9 @@ Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:04:48) [G
 Rendering template within layouts/application
 Rendering main_pages/support
 Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#home (for 127.0.0.1 at 2010-07-20 01:20:10) [GET]
+Rendering template within layouts/application
+Rendering main_pages/home
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/]
