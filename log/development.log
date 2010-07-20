@@ -1410,3 +1410,21 @@ Completed in 48ms (View: 44, DB: 0) | 200 OK [http://localhost/support]
 Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 00:19:24) [GET]
 Rendering main_pages/support
 Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#home (for 127.0.0.1 at 2010-07-20 01:01:57) [GET]
+Rendering template within layouts/application
+Rendering main_pages/home
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:02:20) [GET]
+Rendering template within layouts/application
+Rendering main_pages/support
+Completed in 67ms (View: 63, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:02:56) [GET]
+Rendering template within layouts/application
+Rendering main_pages/support
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
