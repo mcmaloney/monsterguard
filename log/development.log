@@ -1400,3 +1400,49 @@ Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 11:26:46) [G
 Rendering main_pages/support
 Completed in 46ms (View: 42, DB: 0) | 200 OK [http://localhost/support]
 >>>>>>> 67796edd46079a6749ad2ff940a946f2c2b4ba0d:log/development.log
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 23:48:49) [GET]
+Rendering main_pages/support
+Completed in 48ms (View: 44, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 00:19:24) [GET]
+Rendering main_pages/support
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#home (for 127.0.0.1 at 2010-07-20 01:01:57) [GET]
+Rendering template within layouts/application
+Rendering main_pages/home
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:02:20) [GET]
+Rendering template within layouts/application
+Rendering main_pages/support
+Completed in 67ms (View: 63, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:02:56) [GET]
+Rendering template within layouts/application
+Rendering main_pages/support
+Completed in 10ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#home (for 127.0.0.1 at 2010-07-20 01:03:54) [GET]
+Rendering template within layouts/application
+Rendering main_pages/home
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 01:04:48) [GET]
+Rendering template within layouts/application
+Rendering main_pages/support
+Completed in 35ms (View: 32, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#home (for 127.0.0.1 at 2010-07-20 01:20:10) [GET]
+Rendering template within layouts/application
+Rendering main_pages/home
+Completed in 24ms (View: 20, DB: 0) | 200 OK [http://localhost/]
