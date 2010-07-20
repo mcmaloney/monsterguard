@@ -1165,3 +1165,203 @@ ActionController::RoutingError (No route matches "/images/iphone-bottom" with {:
   
 
 Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 22:49:32) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 23:19:33) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 23:49:34) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 00:19:36) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 00:49:38) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 01:19:42) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 01:49:43) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 02:19:44) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 02:50:37) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 03:20:39) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 03:50:42) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 04:20:43) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 04:50:45) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 05:20:55) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 05:51:01) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 06:21:07) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 06:51:04) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 07:21:06) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 07:51:07) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 08:21:09) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 08:51:11) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 09:21:13) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 09:51:14) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 10:21:15) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-07-19 10:51:16) [GET]
+
+ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)

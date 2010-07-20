@@ -111,11 +111,59 @@ a {
 #bottom {
   background: #0f0a0f;
   border-top: 1px solid #1D121E;
-  height: 300px;
+  height: 500px;
 }
 
 #bottom-inner {
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 60px 40px;
   width: 940px;
+}
+
+#points {
+  float: left;
+  width: 640px;
+}
+
+.point {
+  float: left;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 300px;
+}
+
+.point .icon {
+  float: left;
+  height: 60px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+.point .text {
+  float: left;
+  font-size: 14px;
+  width: 245px;
+}
+
+.point .text h3 {
+  color: #fefcbe;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.point .icon.monster {
+  background: url("/images/monster.png");
+}
+
+.point .icon.bulb {
+  background: url("/images/bulb.png");
+}
+
+.point .icon.plax {
+  background: url("/images/plax.png");
+}
+
+.point .icon.alert {
+  background: url("/images/alert.png");
 }
