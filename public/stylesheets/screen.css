@@ -11,10 +11,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 p {
   line-height: 20px;
   margin: 10px 0;
@@ -256,9 +252,11 @@ form fieldset input {
 form fieldset textarea {
   background: #130C13;
   border: 1px solid #1F131F;
+  color: #fff;
   width: 100%; }
   form fieldset textarea:focus {
-    background: #FFFBE2; }
+    background: #FFFBE2;
+    color: #000; }
 form fieldset .checkbox label {
   float: left; }
 form fieldset .checkbox input {
