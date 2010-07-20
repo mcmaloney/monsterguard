@@ -1167,6 +1167,7 @@ ActionController::RoutingError (No route matches "/images/iphone-bottom" with {:
 Rendering rescues/layout (not_found)
 
 
+<<<<<<< HEAD:log/development.log
 Processing ApplicationController#index (for 127.0.0.1 at 2010-07-18 22:49:32) [GET]
 
 ActionController::RoutingError (No route matches "/published.atom" with {:method=>:get}):
@@ -1394,3 +1395,8 @@ Rendering rescues/layout (not_found)
 Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 23:07:17) [GET]
 Rendering main_pages/support
 Completed in 96ms (View: 94, DB: 0) | 200 OK [http://localhost/support]
+=======
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 11:26:46) [GET]
+Rendering main_pages/support
+Completed in 46ms (View: 42, DB: 0) | 200 OK [http://localhost/support]
+>>>>>>> 67796edd46079a6749ad2ff940a946f2c2b4ba0d:log/development.log
