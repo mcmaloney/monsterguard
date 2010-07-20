@@ -1400,3 +1400,13 @@ Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 11:26:46) [G
 Rendering main_pages/support
 Completed in 46ms (View: 42, DB: 0) | 200 OK [http://localhost/support]
 >>>>>>> 67796edd46079a6749ad2ff940a946f2c2b4ba0d:log/development.log
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-19 23:48:49) [GET]
+Rendering main_pages/support
+Completed in 48ms (View: 44, DB: 0) | 200 OK [http://localhost/support]
+
+
+Processing MainPagesController#support (for 127.0.0.1 at 2010-07-20 00:19:24) [GET]
+Rendering main_pages/support
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/support]
