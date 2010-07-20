@@ -1,63 +1,51 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html>
-  <head>
-    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <title>MonsterGuard</title>
-    <link href="/stylesheets/screen.css" media="screen" rel="stylesheet" type="text/css" />
-  </head>
+<div id="wrapper">
   
-  <body>
-    <div id="wrapper">
-      
-      <div id="top-bar">
-        <div id="top-bar-inner">
-          <a href="/">
-            <div id="logo">
-            </div>
-          </a>
-          </div>
+  <div id="top-bar">
+    <div id="top-bar-inner">
+      <a href="/">
+        <div id="logo">
         </div>
+      </a>
       </div>
-      <div id="support">
-        <p class="flash">
-          <%= flash[:notice] %>
-        </p>
-          <% form_for :message, :url => send_support_message_path, :html => { :method => :post } do |f| %>
-            <fieldset>
-
-            <p>
-              Drop us a line with any questions, comments or concerns you might have about MonsterGuard.
-            </p>
-            <br />
-            <p>
-              <%= f.label :name, "Your name" %>
-              <%= f.text_field :name %>
-            </p>
-            <p>
-              <%= f.label :email, "Your email <span class='small'>*(required)</span>" %>
-              <%= f.text_field :email %>
-            </p>
-            <p>
-              <%= f.label :subject, "Nature of Inquiry <span class='small'>(comment, problem, feature request, etc..)</span>" %>
-              <%= f.text_field :subject %>
-            </p>
-            <p>
-              <%= f.label :body, "Your message" %>
-              <%= f.text_area :body %>
-            </p>
-            <p>
-              <span class='submit'>
-                <%= f.submit 'Send' %>
-              </span>
-            </p>
-            </fieldset>
-          <% end %>
-        </div>
-        <div id="footer">
-          Copyright 2010 MonsterGuard | <a href="/support">Support</a>
-      </div>
-      
     </div>
-  </body>
-</html>
+  </div>
+  <div id="support">
+    <p class="flash">
+      <%= flash[:notice] %>
+    </p>
+      <% form_for :message, :url => send_support_message_path, :html => { :method => :post } do |f| %>
+        <fieldset>
+
+        <p>
+          Drop us a line with any questions, comments or concerns you might have about MonsterGuard.
+        </p>
+        <br />
+        <p>
+          <%= f.label :name, "Your name" %>
+          <%= f.text_field :name %>
+        </p>
+        <p>
+          <%= f.label :email, "Your email <span class='small'>*(required)</span>" %>
+          <%= f.text_field :email %>
+        </p>
+        <p>
+          <%= f.label :subject, "Nature of Inquiry <span class='small'>(comment, problem, feature request, etc..)</span>" %>
+          <%= f.text_field :subject %>
+        </p>
+        <p>
+          <%= f.label :body, "Your message" %>
+          <%= f.text_area :body %>
+        </p>
+        <p>
+          <span class='submit'>
+            <%= f.submit 'Send' %>
+          </span>
+        </p>
+        </fieldset>
+      <% end %>
+    </div>
+    <div id="footer">
+      Copyright 2010 MonsterGuard | <a href="/support">Support</a>
+  </div>
+  
+</div>
