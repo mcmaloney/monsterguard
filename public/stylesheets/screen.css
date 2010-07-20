@@ -1,6 +1,7 @@
 @import url("reset.css");
 
 body {
+  background: #0f0a0f;
   font-family: "Verdana", sans-serif;
   color: #fff;
   line-height: 20px;
@@ -8,6 +9,10 @@ body {
 
 a {
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 #wrapper{
@@ -166,4 +171,47 @@ a {
 
 .point .icon.alert {
   background: url("/images/alert.png");
+}
+
+#right {
+  float: right;
+  margin-top: 20px;
+}
+
+#right h2 {
+  color: #4E314E;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#right p {
+  background: #130C13;
+  color: #7C4E7C;
+  font-size: 14px;
+  font-style: italic;
+  margin-bottom: 10px;
+  padding: 10px 10px 0;
+  width: 226px;
+}
+
+#right span.credit {
+  font-size: 14px;
+  font-style: normal;
+  line-height: 40px;
+  margin-top: 5px;
+  text-align: right;
+}
+
+#footer {
+  color: #7C4E7C;
+  border-top: 1px solid #150E15;
+  font-size: 12px;
+  padding: 20px 0 40px;
+  text-align: center;
+}
+
+#footer a {
+  color: #7C4E7C;
+  text-decoration: underline;
 }
