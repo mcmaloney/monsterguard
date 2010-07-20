@@ -15,6 +15,11 @@ a:hover {
   text-decoration: underline;
 }
 
+p {
+  line-height: 20px;
+  margin: 10px 0;
+}
+
 #wrapper{
 }
 
@@ -215,3 +220,122 @@ a:hover {
   color: #7C4E7C;
   text-decoration: underline;
 }
+
+.small {
+  font-size: 10px;
+  font-weight: normal;
+}
+
+/*support*/
+
+#support {
+  margin: 0 auto;
+  margin-bottom: 140px;
+  margin-top: 40px;
+  width: 940px;
+}
+
+form {
+  width: 400px;
+}
+
+form fieldset label {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 3px; }
+form fieldset input {
+  background: #130C13;
+  border: 1px solid #1F131F;
+  color: #fff;
+  height: 15px;
+  padding: 5px;
+  width: 98%; }
+  form fieldset input:focus {
+    background: #FFFBE2;
+    color: #000; }
+form fieldset textarea {
+  background: #130C13;
+  border: 1px solid #1F131F;
+  width: 100%; }
+  form fieldset textarea:focus {
+    background: #FFFBE2; }
+form fieldset .checkbox label {
+  float: left; }
+form fieldset .checkbox input {
+  border: 0;
+  float: left;
+  width: 25px; }
+form fieldset .radio label {
+  float: left; }
+form fieldset .radio input {
+  border: 0;
+  float: left;
+  width: 25px; }
+form fieldset .file {
+  margin: 10px 0; }
+  form fieldset .file input {
+    border: 0;
+    *border: 1px solid #ccc;
+    height: 25px; }
+    
+form fieldset .submit input {
+  background: #281928;
+  cursor: pointer;
+  height: 30px;
+  width: 100px;
+}
+
+form fieldset .submit input:hover {
+  background: #4C2F4C;
+}
+    
+/*errors*/
+.flash {
+  color: #FAFFB8;
+}
+
+.errorMessage {
+  display: none; }
+  .errorMessage p {
+    color: red; }
+
+.fieldWithErrors {
+  background: url('/images/icons/exclamation.png') no-repeat 1% #f5d1c4;
+  line-height: 1.6;
+  padding: 5px; }
+  .fieldWithErrors label {
+    padding-left: 20px; }
+
+.checkbox, .radio {
+  float: left; }
+  .checkbox .fieldWithErrors, .radio .fieldWithErrors {
+    background-position: 14%;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-bottom: 2px; }
+
+.label .fieldWithErrors label {
+  padding: 10px 0; }
+
+.file .fieldWithErrors {
+  background-position: 1% 42%;
+  padding-left: 30px; }
+
+#errorExplanation {
+  background-color: #f5d1c4;
+  border: 2px solid #ee1111;
+  margin-bottom: 20px;
+  padding-bottom: 10px; }
+  #errorExplanation h2 {
+    font-family: "Verdana", sans-serif;
+    background-color: #ee1111;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 0;
+    text-align: left; }
+  #errorExplanation p {
+    padding: 10px 20px 0; }
+  #errorExplanation ul {
+    padding-left: 20px; }
