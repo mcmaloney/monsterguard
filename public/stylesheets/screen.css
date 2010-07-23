@@ -133,6 +133,7 @@ p {
 
 .point {
   float: left;
+  height: 120px;
   margin-bottom: 40px;
   margin-right: 20px;
   width: 300px;
